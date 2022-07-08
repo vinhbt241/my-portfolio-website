@@ -10,7 +10,7 @@ const LinkContainer = () => {
     <div className="LinkContainer">
       <Link 
         to="about"
-        className="link hello"
+        className="hello"
         style={{ textDecoration: 'none' }}
         onMouseEnter={() => setAboutShow(true)}
         onMouseLeave={() => setAboutShow(false)}>
@@ -22,7 +22,6 @@ const LinkContainer = () => {
       <Link
         to="work"
         style={{ textDecoration: 'none', color: 'inherit' }}
-        className="link"
         onMouseEnter={() => setWorksShow(true)}
         onMouseLeave={() => setWorksShow(false)}>
         {worksShow ? 
@@ -33,7 +32,6 @@ const LinkContainer = () => {
       <Link
         to="contact"
         style={{ textDecoration: 'none', color: 'inherit' }}
-        className="link"
         onMouseEnter={() => setContactShow(true)}
         onMouseLeave={() => setContactShow(false)}>
         {contactShow ? 

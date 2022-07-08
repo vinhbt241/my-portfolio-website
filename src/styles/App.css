@@ -24,18 +24,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .LinkContainer {
-  width: 60vw;
+  width: 23vw;
+  margin-left: 25rem;
 
   font-size: 10em;
   font-family: 'Source Sans Pro Bold';
-}
-
-.link {
-  width: fit-content;
 }
 
 .hello {
