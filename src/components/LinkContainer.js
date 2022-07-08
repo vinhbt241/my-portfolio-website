@@ -8,22 +8,31 @@ const LinkContainer = () => {
   return(
     <div className="LinkContainer">
       <div 
-        className="link"
+        className="link hello"
         onMouseEnter={() => setAboutShow(true)}
         onMouseLeave={() => setAboutShow(false)}>
-        {aboutShow ? "About" : "Hello."}
+        {aboutShow ? 
+          <div className="showLink">About</div> 
+          : 
+          <div className="hidLink">Hello.</div>}
       </div>
       <div
        className="link"
        onMouseEnter={() => setWorksShow(true)}
        onMouseLeave={() => setWorksShow(false)}>
-        {worksShow ? "Works" : "I am"}
+        {worksShow ? 
+          <div className="showLink">Works</div> 
+          : 
+          <div className="hidLink">I am</div>}
       </div>
       <div
         className="link"
         onMouseEnter={() => setContactShow(true)}
         onMouseLeave={() => setContactShow(false)}>
-        {contactShow ? "Contact" : "Vinh"}
+        {contactShow ? 
+          <div className="showLink">Contact</div> 
+          : 
+          <div className="hidLink">Vinh</div>}
       </div>
     </div>
   )

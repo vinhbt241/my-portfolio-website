@@ -30,11 +30,26 @@ body {
 .LinkContainer {
   width: 60vw;
 
-  font-size: 10rem;
+  font-size: 10em;
   font-family: 'Source Sans Pro Bold';
 }
 
 .link {
   width: fit-content;
+}
+
+.hello {
+  color: #8600b3;
+}
+
+.hidLink {
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+}
+
+.showLink {
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+  padding-left: 3rem;
 }
 
