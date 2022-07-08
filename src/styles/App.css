@@ -18,17 +18,23 @@ body {
 }
 
 .Home {
-  width: 70vw;
+  width: 100vw;
   height: 100vh;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
 
+.LinkContainer {
+  width: 60vw;
+
+  font-size: 10rem;
   font-family: 'Source Sans Pro Bold';
 }
 
-/* .LinkContainer {
-  border: 1px solid black;
-  font-size: 10rem;
-} */
+.link {
+  width: fit-content;
+}
+
