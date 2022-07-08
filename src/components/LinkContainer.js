@@ -1,4 +1,5 @@
-import { useState } from "react"
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const LinkContainer = () => {
   const [aboutShow, setAboutShow] = useState(false);
@@ -7,25 +8,31 @@ const LinkContainer = () => {
 
   return(
     <div className="LinkContainer">
-      <div 
+      <Link 
+        to="about"
         className="link hello"
+        style={{ textDecoration: 'none' }}
         onMouseEnter={() => setAboutShow(true)}
         onMouseLeave={() => setAboutShow(false)}>
         {aboutShow ? 
           <div className="showLink">About</div> 
           : 
           <div className="hidLink">Hello.</div>}
-      </div>
-      <div
-       className="link"
-       onMouseEnter={() => setWorksShow(true)}
-       onMouseLeave={() => setWorksShow(false)}>
+      </Link>
+      <Link
+        to="work"
+        style={{ textDecoration: 'none', color: 'inherit' }}
+        className="link"
+        onMouseEnter={() => setWorksShow(true)}
+        onMouseLeave={() => setWorksShow(false)}>
         {worksShow ? 
-          <div className="showLink">Works</div> 
+          <div className="showLink">Work</div> 
           : 
           <div className="hidLink">I am</div>}
-      </div>
-      <div
+      </Link>
+      <Link
+        to="contact"
+        style={{ textDecoration: 'none', color: 'inherit' }}
         className="link"
         onMouseEnter={() => setContactShow(true)}
         onMouseLeave={() => setContactShow(false)}>
@@ -33,7 +40,7 @@ const LinkContainer = () => {
           <div className="showLink">Contact</div> 
           : 
           <div className="hidLink">Vinh</div>}
-      </div>
+      </Link>
     </div>
   )
 }
