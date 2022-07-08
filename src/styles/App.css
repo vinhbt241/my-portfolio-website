@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Source Sans Pro Bold';
+  src: url(./font/Source_Sans_Pro/SourceSansPro-Bold.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  max-width: 100vw;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+}
+
+.Home {
+  width: 70vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-family: 'Source Sans Pro Bold';
+}
+
+/* .LinkContainer {
+  border: 1px solid black;
+  font-size: 10rem;
+} */
