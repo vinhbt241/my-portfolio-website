@@ -27,7 +27,7 @@ body {
 }
 
 .LinkContainer {
-  width: 23vw;
+  width: fit-content;
   margin-left: 25rem;
 
   font-size: 10em;
