@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { HoverLink } from "./HoverLink";
 
 const LinkContainer = () => {  
