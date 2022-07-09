@@ -3,6 +3,11 @@
   src: url(./font/Source_Sans_Pro/SourceSansPro-Bold.ttf);
 }
 
+@font-face {
+  font-family: 'Source Sans Pro Normal';
+  src: url(./font/Source_Sans_Pro/SourceSansPro-Light.ttf);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -59,12 +64,8 @@ body {
 
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
-.About h1 {
-  margin-top: 3.2em;
-}
 
 .home-link {
   position: fixed;
@@ -72,6 +73,9 @@ body {
 
   top: 10vh;
   right: 7vw;
+
+  transition-duration: 200ms;
+  transition-timing-function: ease;
 }
 
 .home-link:hover {
@@ -85,11 +89,47 @@ body {
   color: #8600b3;
 }
 
-.job-state-container {
+.about-header {
   width: 100vw;
   height: 100vh;
   display: flex;
-  justify-content: center;
-  padding-top: 25vh;
+  align-items: center;
+  font-size: 2em;
+  padding-left: 12vw;
+  box-sizing: border-box;
+}
+
+.about-header p {
+  margin: 0;
+  padding: 0;
+}
+
+.about-illustrate {
+  width: 85vw;
+  height: 45vh;
+
+  border-width: 2px 0 2px 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 15px 0 0 15px;
+  
+  margin-left: auto;
+  margin-bottom: 10vh;
+}
+
+.about-main {
+  width: 50vw;
+  font-size: .6em;
+  font-family: 'Source Sans Pro Normal';
+  margin: auto;
+}
+
+.about-main h1 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro Bold';
+  font-weight: normal;
   font-size: 2em;
 }
+
+

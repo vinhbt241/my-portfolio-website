@@ -6,7 +6,7 @@ const Work = () => {
       className="Work"
       
       initial={{height: 0}}
-      animate={{height: "100vh"}}
+      animate={{height: "auto"}}
       exit={{y: window.innerHeight}}>
       WORK PAGE
     </motion.div>
