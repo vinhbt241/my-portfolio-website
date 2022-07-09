@@ -5,9 +5,9 @@ const Work = () => {
     <motion.div
       className="Work"
       
-      initial={{height: 0}}
-      animate={{height: "auto"}}
-      exit={{y: window.innerHeight}}>
+      initial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}>
       WORK PAGE
     </motion.div>
   )

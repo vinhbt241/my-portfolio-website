@@ -6,9 +6,9 @@ const Home = () => {
     <motion.div 
       className="Home"
 
-      initial={{height: 0}}
-      animate={{height: "100vh"}}
-      exit={{y: window.innerHeight}}>
+      initial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}>
       <LinkContainer />
     </motion.div>
   )

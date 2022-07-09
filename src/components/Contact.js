@@ -6,9 +6,9 @@ const Contact = () => {
     <motion.div
       className="Contact"
       
-      initial={{height: 0}}
-      animate={{height: "auto"}}
-      exit={{y: window.innerHeight}}>
+      initial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}>
     <HoverLink pathName="/" styleLink="HoverLink home-link" hoverText="vinh.home" notHoverText="vinh."/>
 
     <div className="contact-header">
