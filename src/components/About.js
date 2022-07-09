@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import { HoverLink } from "./HoverLink"
 
 const About = () => {
   return(
@@ -6,13 +7,14 @@ const About = () => {
       className="About"
       
       initial={{height: 0}}
-      animate={{minHeight: "100vh"}}
+      animate={{height: "100vh"}}
       exit={{y: window.innerHeight}}>
-      <div className="home-link">Vinh.</div>
+     
+      <HoverLink pathName="/" styleLink="HoverLink home-link" hoverText="Vinh.works" notHoverText="Vinh."/>
 
-      <h1>
-        I am a <span className="purple-text">Full-Stack</span> developer
-      </h1>
+      <div className="job-state-container">
+        <p>I am a <span className="purple-text">Full-Stack</span> developer</p>
+      </div>
     </motion.div>
   )
 }

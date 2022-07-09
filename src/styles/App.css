@@ -34,15 +34,20 @@ body {
   font-family: 'Source Sans Pro Bold';
 }
 
-.hidLink {
+.HoverLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.HoverLinkText {
   transition-duration: 200ms;
   transition-timing-function: ease;
 }
 
-.showLink {
+.HoverLinkText:hover {
+  padding-left: 3rem;
   transition-duration: 200ms;
   transition-timing-function: ease;
-  padding-left: 3rem;
 }
 
 .About {
@@ -69,11 +74,22 @@ body {
   right: 7vw;
 }
 
-.HoverLink {
-  text-decoration: none;
-  color: inherit;
+.home-link:hover {
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+  padding-right: 1rem;
 }
+
 
 .purple-text {
   color: #8600b3;
+}
+
+.job-state-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 25vh;
+  font-size: 2em;
 }

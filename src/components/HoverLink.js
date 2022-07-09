@@ -10,10 +10,9 @@ const HoverLink = (props) => {
       className={props.styleLink}
       onMouseEnter={() => setIsShow(true)}
       onMouseLeave={() => setIsShow(false)}>
-      {isShow ? 
-        <div className="showLink">{props.hoverText}</div> 
-        : 
-        <div className="hidLink">{props.notHoverText}</div>}
+      <div className="HoverLinkText">
+        {isShow ? props.hoverText : props.notHoverText}
+      </div>
     </Link>
   )
 }

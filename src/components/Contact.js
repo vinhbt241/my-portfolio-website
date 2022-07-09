@@ -6,7 +6,7 @@ const Contact = () => {
       className="Contact"
       
       initial={{height: 0}}
-      animate={{minHeight: "100vh"}}
+      animate={{height: "100vh"}}
       exit={{y: window.innerHeight}}>
       CONTACT PAGE
     </motion.div>
