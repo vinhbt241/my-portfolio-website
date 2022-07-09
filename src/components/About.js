@@ -1,5 +1,5 @@
-import { motion } from "framer-motion"
-import { HoverLink } from "./HoverLink"
+import { motion } from "framer-motion";
+import { HoverLink } from "./HoverLink";
 
 const About = () => {
   return(
