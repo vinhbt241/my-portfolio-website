@@ -1,8 +1,15 @@
+import { motion } from "framer-motion";
+
 const Contact = () => {
   return(
-    <div>
-      Contact page
-    </div>
+    <motion.div
+      className="Contact"
+      
+      initial={{height: 0}}
+      animate={{minHeight: "100vh"}}
+      exit={{y: window.innerHeight}}>
+      CONTACT PAGE
+    </motion.div>
   )
 }
 

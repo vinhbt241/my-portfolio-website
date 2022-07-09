@@ -1,8 +1,15 @@
+import { motion } from "framer-motion"
+
 const Work = () => {
   return(
-    <div>
-      Work page
-    </div>
+    <motion.div
+      className="Work"
+      
+      initial={{height: 0}}
+      animate={{minHeight: "100vh"}}
+      exit={{y: window.innerHeight}}>
+      WORK PAGE
+    </motion.div>
   )
 }
 
