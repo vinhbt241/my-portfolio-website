@@ -10,7 +10,7 @@ const LinkContainer = () => {
     <div className="LinkContainer">
       <Link 
         to="about"
-        className="hello"
+        className="purple-text"
         style={{ textDecoration: 'none' }}
         onMouseEnter={() => setAboutShow(true)}
         onMouseLeave={() => setAboutShow(false)}>

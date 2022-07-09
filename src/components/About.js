@@ -8,7 +8,11 @@ const About = () => {
       initial={{height: 0}}
       animate={{minHeight: "100vh"}}
       exit={{y: window.innerHeight}}>
-      ABOUT PAGE
+      <div className="home-link">Vinh.</div>
+
+      <h1>
+        I am a <span className="purple-text">Full-Stack</span> developer
+      </h1>
     </motion.div>
   )
 }
