@@ -109,9 +109,8 @@ body {
   padding: 0;
 }
 
-.about-illustrate {
+.about-skills {
   width: 85vw;
-  height: 45vh;
 
   border-width: 2px 0 2px 2px;
   border-color: black;
@@ -119,7 +118,21 @@ body {
   border-radius: 15px 0 0 15px;
   
   margin-left: auto;
-  margin-bottom: 10vh;
+  margin-bottom: 15vh;
+
+  padding: 2rem 0 4rem 2rem;
+  box-sizing: border-box;
+
+  font-size: .6em;
+  font-family: 'Source Sans Pro Normal';
+}
+
+.about-skills h1 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro Bold';
+  font-weight: normal;
+  font-size: 2em;
 }
 
 .about-main,
@@ -137,6 +150,29 @@ body {
   font-family: 'Source Sans Pro Bold';
   font-weight: normal;
   font-size: 2em;
+}
+
+.skills-container {
+  display: flex;
+  gap: 3rem;
+}
+
+.skill-container {
+  height: 19vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.skill-container h3{
+  margin: 0;
+  padding: 0;
+}
+
+.skill-icon {
+  height: 100%;
 }
 
 
