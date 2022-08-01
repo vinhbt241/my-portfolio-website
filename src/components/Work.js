@@ -34,7 +34,7 @@ const Work = () => {
           projectName="Virtuoso"
           liveLink="https://vinhbt241.github.io/js-social-network/"
           codeLink="https://github.com/vinhbt241/js-social-network"
-          description="A social network buit with React and Rails"
+          description="A social network built with React and Rails"
           imgSrc={SocialNetwork}
           />
       </div>

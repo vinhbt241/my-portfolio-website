@@ -13,9 +13,9 @@ const Contact = () => {
 
     <div className="contact-header">
         <p>
-          Let's make 
+          Together we can
           <br></br>
-          something great!
+          create <span className="purple-text">greatness!</span>
         </p>
     </div>
 
