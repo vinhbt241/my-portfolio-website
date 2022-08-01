@@ -203,11 +203,12 @@ body {
 }
 
 .project-illustration {
-  width: fit-content;
+  width:  65vw;
   height: 50vh;
   border: 2px solid black;
   border-radius: 15px;
   overflow: hidden;
+  object-fit: cover;
 }
 
 .project-illustration img {

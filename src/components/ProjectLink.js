@@ -3,7 +3,7 @@ const ProjectLink = (props) => {
     <div className="ProjectLink">
       <h1>{props.projectName}</h1>
       <p>{props.description}</p>
-      <div className="project-illustration"><img src={props.imgSrc} alt=""/></div>
+      <img className="project-illustration" src={props.imgSrc} alt=""/>
       <a 
         href={props.liveLink}
         target="blank"
