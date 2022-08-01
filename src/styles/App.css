@@ -47,6 +47,8 @@ body {
 .HoverLinkText {
   transition-duration: 200ms;
   transition-timing-function: ease;
+
+  text-decoration: none;
 }
 
 .HoverLinkText:hover {

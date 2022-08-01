@@ -6,13 +6,15 @@ const ProjectLink = (props) => {
       <img className="project-illustration" src={props.imgSrc} alt=""/>
       <a 
         href={props.liveLink}
-        target="blank"
+        target="_blank"
+        rel="noopener noreferrer"
         className="HoverLinkText purple-text">
         Live
       </a>
       <a 
         href={props.codeLink}
-        target="blank"
+        target="_blank"
+        rel="noopener noreferrer"
         className="HoverLinkText purple-text">
         Code
       </a>
