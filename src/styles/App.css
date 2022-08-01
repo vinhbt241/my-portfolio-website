@@ -56,7 +56,8 @@ body {
 }
 
 .About, 
-.Contact {
+.Contact,
+.Work {
   width: 100vw;
   min-height: 100vh;
 
@@ -175,4 +176,40 @@ body {
   height: 100%;
 }
 
+.project-links {
+  display: flex;
+  flex-direction: column;
+  padding-left: 12vw;
+  padding-top: 8vh;
+  gap: 5rem;
+}
 
+.ProjectLink {
+  display: flex;
+  flex-direction: column;
+  gap: .2em;
+}
+
+.ProjectLink * {
+  margin: 0;
+  padding: 0;
+}
+
+.ProjectLink a {
+  text-decoration: none;
+  font-size: .8em;
+
+  font-family: 'Source Sans Pro Normal';
+}
+
+.project-illustration {
+  width: fit-content;
+  height: 50vh;
+  border: 2px solid black;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.project-illustration img {
+  height: 100%;
+}
