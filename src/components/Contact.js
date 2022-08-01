@@ -1,7 +1,16 @@
 import { motion } from "framer-motion";
+import { useState } from "react";
 import { HoverLink } from "./HoverLink";
 
 const Contact = () => {
+  const [emailHovered, setEmailHovered] = useState(false);
+  const [emailCopied, setEmailCopied] = useState(false);
+
+  const copyEmailToClipboard = () => {
+    navigator.clipboard.writeText("vinh2000bt@gmail.com");
+    setEmailCopied(true);
+  }
+
   return(
     <motion.div
       className="Contact"
@@ -22,7 +31,19 @@ const Contact = () => {
     <div className="contact-main">
         <h1>Contact</h1>
         <p>Nulla tincidunt magna at leo finibus, sed varius urna bibendum. Nulla facilisi. Morbi consequat lectus vel felis egestas tristique. Cras in metus eget lacus euismod accumsan eu eget odio. Nunc sit amet orci molestie, eleifend metus eget, dapibus tortor. Aliquam scelerisque leo dui, at egestas massa scelerisque fringilla. Proin euismod neque enim, sed tristique ligula hendrerit et. Suspendisse potenti. Nulla augue tortor, fermentum eu euismod sit amet, mattis ac ligula. Quisque finibus pharetra dolor. Sed non commodo neque. Nullam malesuada tempor felis, vel rutrum elit bibendum quis. Praesent aliquet ullamcorper ex a vulputate. Phasellus at quam quam. Duis id elit vel ligula tincidunt malesuada. </p>
-        <p className="purple-text HoverLinkText">vinh2000bt@gmail.com</p>
+        <p className="purple-text HoverLinkText">
+          <button 
+            className="unstyle-button"
+            onMouseEnter={() => setEmailHovered(true)}
+            onMouseLeave={() => {
+              setEmailHovered(false);
+              setEmailCopied(false);
+            }}
+            onClick={copyEmailToClipboard}>
+            { emailHovered ? (emailCopied ? "Email copied" : "Copy to clipboard") :  "vinh2000bt@gmail.com" } 
+          </button>
+        </p>
+
         <p>
           <a
             href="https://www.facebook.com/profile.php?id=100008579102814"

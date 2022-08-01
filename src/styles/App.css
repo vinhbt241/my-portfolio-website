@@ -227,3 +227,11 @@ body {
 .project-illustration img {
   height: 100%;
 }
+
+.unstyle-button {
+  font-size: 1em;
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  font-family: inherit;
+}
