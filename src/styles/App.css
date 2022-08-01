@@ -126,6 +126,10 @@ body {
 
   font-size: .6em;
   font-family: 'Source Sans Pro Normal';
+
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 
 .about-skills h1 {
@@ -134,6 +138,12 @@ body {
   font-family: 'Source Sans Pro Bold';
   font-weight: normal;
   font-size: 2em;
+}
+
+.about-skills h2 {
+  font-size: 1.1em;
+  margin: 0 0 .3em 0;
+  padding: 0;
 }
 
 .about-main,
@@ -159,7 +169,7 @@ body {
 }
 
 .skill-container {
-  height: 19vh;
+  height: 14vh;
 
   display: flex;
   flex-direction: column;
@@ -170,6 +180,7 @@ body {
 .skill-container h3{
   margin: 0;
   padding: 0;
+  font-size: 1em;
 }
 
 .skill-icon {
