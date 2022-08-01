@@ -3,7 +3,8 @@ import { ProjectLink } from "./ProjectLink";
 import { HoverLink } from "./HoverLink";
 
 import ShoppingCartImg from "../images/shopping-cart.png";
-import WaldoImg from "../images/where-is-waldo.png"
+import WaldoImg from "../images/where-is-waldo.png";
+import SocialNetwork from "../images/social_network.jpg"
 
 const Work = () => {
   return(
@@ -28,6 +29,13 @@ const Work = () => {
           codeLink="https://github.com/vinhbt241/where-is-waldo"
           description="A Puzzle Game with React as Front-end and Rails as Back-end"
           imgSrc={WaldoImg}
+          />
+        <ProjectLink
+          projectName="Virtuoso"
+          liveLink="https://vinhbt241.github.io/js-social-network/"
+          codeLink="https://github.com/vinhbt241/js-social-network"
+          description="A social network buit with React and Rails"
+          imgSrc={SocialNetwork}
           />
       </div>
     </motion.div>
