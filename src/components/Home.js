@@ -1,6 +1,8 @@
 import { LinkContainer } from "./LinkContainer";
 import { motion } from "framer-motion";
 
+import Avatar from "../images/avatar.png"
+
 const Home = () => {
   return(
     <motion.div 
@@ -10,6 +12,8 @@ const Home = () => {
       animate={{opacity: 1}}
       exit={{opacity: 0}}>
       <LinkContainer />
+
+      <img src={Avatar} alt ="" className="avatar"/>
     </motion.div>
   )
 }
