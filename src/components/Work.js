@@ -18,10 +18,10 @@ const Work = () => {
 
       <div className="project-links">
         <ProjectLink 
-          projectName="Shopping Cart" 
+          projectName="Super Hardcore shop" 
           liveLink="https://vinhbt241.github.io/shopping-cart/"
           codeLink="https://github.com/vinhbt241/shopping-cart"
-          description="A React Application"
+          description="A shopping UI create by React"
           imgSrc={ShoppingCartImg} />
         <ProjectLink
           projectName="Where is Waldo?"
