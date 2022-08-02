@@ -83,8 +83,19 @@ const About = () => {
       </div>
 
       <div className="about-main">
-        <h1>About</h1>
-        <p>Nulla tincidunt magna at leo finibus, sed varius urna bibendum. Nulla facilisi. Morbi consequat lectus vel felis egestas tristique. Cras in metus eget lacus euismod accumsan eu eget odio. Nunc sit amet orci molestie, eleifend metus eget, dapibus tortor. Aliquam scelerisque leo dui, at egestas massa scelerisque fringilla. Proin euismod neque enim, sed tristique ligula hendrerit et. Suspendisse potenti. Nulla augue tortor, fermentum eu euismod sit amet, mattis ac ligula. Quisque finibus pharetra dolor. Sed non commodo neque. Nullam malesuada tempor felis, vel rutrum elit bibendum quis. Praesent aliquet ullamcorper ex a vulputate. Phasellus at quam quam. Duis id elit vel ligula tincidunt malesuada. </p>
+        <h1>About me</h1>
+        <p>
+          In my past life I was a student majoring in Electronics and Telecommunications. I took many courses such as Computer Network, Computer System and Programming Languages, and Computer Architecture. The first taught me how the Internet work. The second forced me to write programs running by C++ and Assembly. Yes, it was hard, but the course helped me build a solid foundation about how programming languages work under the hood. The final taught me that knowing how to work with computer operating systems is severely underrated.
+        </p>
+        <p>
+          At the end of the winter in my third year, I discovered The Odin Project, an open-source curriculum written by developers that teach (almost) everything one needs to be a capable full-stack developer. Projects range from pretty serious hand-holding in the beginning to "Go on kid. Make Facebook. You'll figure it out". I got hooked. Big time.
+        </p>
+        <p>
+          I spent every day since then getting stuck until I figured out how to get unstuck. I make hundreds, if not thousands, of mistakes and learned from every one of them. Coding invigorates me in a way few things ever have. The logical part of my brain loves the process; the creative side of my brain loves the chaos.
+        </p>
+        <p>
+          You can read more about my biography, experience, skills, education and much more in the PDF attached below:
+        </p>
         <p className="purple-text HoverLinkText">My resume</p>
       </div>
     </motion.div>
