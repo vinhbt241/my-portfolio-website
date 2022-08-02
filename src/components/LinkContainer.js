@@ -7,7 +7,7 @@ const LinkContainer = () => {
       <motion.div
         initial={{height: 0, y: 200}}
         animate={{height: "auto", y: 0}}
-        transition={{ ease: "easeOut",duration: .5 }}
+        transition={{ ease: "easeOut",duration: .5, delay: .5 }}
         className="motion-container">
         <HoverLink 
           pathName="about" 
@@ -18,7 +18,7 @@ const LinkContainer = () => {
       <motion.div
         initial={{height: 0, y: 200}}
         animate={{height: "auto", y: 0}}
-        transition={{ ease: "easeOut",duration: .5, delay: .5 }}
+        transition={{ ease: "easeOut",duration: .5, delay: 1 }}
         className="motion-container">
         <HoverLink 
           pathName="work" 
@@ -29,7 +29,7 @@ const LinkContainer = () => {
       <motion.div
         initial={{height: 0, y: 200}}
         animate={{height: "auto", y: 0}}
-        transition={{ ease: "easeOut",duration: .5, delay: 1 }}
+        transition={{ ease: "easeOut",duration: .5, delay: 1.5 }}
         className="motion-container">
         <HoverLink 
           pathName="contact" 
