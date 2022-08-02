@@ -20,8 +20,8 @@ const Work = () => {
       <div className="project-links">
         <ProjectLink 
           projectName="Online Battle Ship" 
-          liveLink="https://github.com/vinhbt241/js-battleship"
-          codeLink="https://vinhbt241.github.io/js-battleship/"
+          liveLink="https://vinhbt241.github.io/js-battleship/"
+          codeLink="https://github.com/vinhbt241/js-battleship"
           description="A classic game created with vanilla JavaScript"
           imgSrc={BattleShipImg} />
 
