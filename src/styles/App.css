@@ -43,6 +43,12 @@ body {
 
   font-size: 10em;
   font-family: 'Source Sans Pro Bold';
+
+  height: 80vh;
+}
+
+.HoverLink-container {
+  overflow: hidden;
 }
 
 .HoverLink {

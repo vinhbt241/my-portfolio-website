@@ -1,11 +1,42 @@
 import { HoverLink } from "./HoverLink";
+import { motion } from "framer-motion";
 
 const LinkContainer = () => {  
   return(
     <div className="LinkContainer">
-      <HoverLink pathName="about" styleLink="HoverLink purple-text" hoverText="About" notHoverText="Hello."/>
-      <HoverLink pathName="work" styleLink="HoverLink" hoverText="Work" notHoverText="I am"/>
-      <HoverLink pathName="contact" styleLink="HoverLink" hoverText="Contact" notHoverText="Vinh"/>
+      <motion.div
+        initial={{height: 0, y: 200}}
+        animate={{height: "auto", y: 0}}
+        transition={{ ease: "easeIn",duration: .4 }}
+        className="HoverLink-container">
+        <HoverLink 
+          pathName="about" 
+          styleLink="HoverLink purple-text" 
+          hoverText="About" 
+          notHoverText="Hello."/>
+      </motion.div>
+      <motion.div
+        initial={{height: 0, y: 200}}
+        animate={{height: "auto", y: 0}}
+        transition={{ ease: "easeIn",duration: .4, delay: .4 }}
+        className="HoverLink-container">
+        <HoverLink 
+          pathName="work" 
+          styleLink="HoverLink" 
+          hoverText="Work" 
+          notHoverText="I am"/>
+      </motion.div>
+      <motion.div
+        initial={{height: 0, y: 200}}
+        animate={{height: "auto", y: 0}}
+        transition={{ ease: "easeIn",duration: .4, delay: .8 }}
+        className="HoverLink-container">
+        <HoverLink 
+          pathName="contact" 
+          styleLink="HoverLink" 
+          hoverText="Contact" 
+          notHoverText="Vinh"/>
+      </motion.div>
     </div>
   )
 }
