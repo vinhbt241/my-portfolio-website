@@ -47,7 +47,7 @@ body {
   height: 80vh;
 }
 
-.HoverLink-container {
+.motion-container {
   overflow: hidden;
 }
 
@@ -112,10 +112,17 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  align-items: center;
   font-size: 2em;
   padding-left: 12vw;
   box-sizing: border-box;
+}
+
+.about-header {
+  padding-top: 38vh;
+}
+
+.contact-header {
+  padding-top: 32vh;
 }
 
 .about-header p,

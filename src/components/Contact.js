@@ -21,16 +21,24 @@ const Contact = () => {
     <HoverLink pathName="/" styleLink="HoverLink home-link" hoverText="vinh.home" notHoverText="vinh."/>
 
     <div className="contact-header">
-        <p>
-          Together we can
-          <br></br>
-          create <span className="purple-text">greatness!</span>
-        </p>
+        <motion.div
+          initial={{height: 0, y: 200}}
+          animate={{height: "2.6em", y: 0}}
+          transition={{ ease: "easeOut",duration: .5 }}
+          className="motion-container">
+          <p>
+            Together we can
+            <br></br>
+            create <span className="purple-text">greatness!</span>
+          </p>
+        </motion.div>
     </div>
 
     <div className="contact-main">
         <h1>Contact</h1>
-        <p>Nulla tincidunt magna at leo finibus, sed varius urna bibendum. Nulla facilisi. Morbi consequat lectus vel felis egestas tristique. Cras in metus eget lacus euismod accumsan eu eget odio. Nunc sit amet orci molestie, eleifend metus eget, dapibus tortor. Aliquam scelerisque leo dui, at egestas massa scelerisque fringilla. Proin euismod neque enim, sed tristique ligula hendrerit et. Suspendisse potenti. Nulla augue tortor, fermentum eu euismod sit amet, mattis ac ligula. Quisque finibus pharetra dolor. Sed non commodo neque. Nullam malesuada tempor felis, vel rutrum elit bibendum quis. Praesent aliquet ullamcorper ex a vulputate. Phasellus at quam quam. Duis id elit vel ligula tincidunt malesuada. </p>
+        <p>
+          I'm always looking for ways to improve. If you have a suggestion on how I could do that or would like to discusses a job/project oppoturnity, I'd love to chat.
+        </p>
         <p className="purple-text HoverLinkText">
           <button 
             className="unstyle-button"

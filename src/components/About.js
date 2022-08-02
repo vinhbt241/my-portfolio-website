@@ -21,7 +21,13 @@ const About = () => {
       <HoverLink pathName="/" styleLink="HoverLink home-link" hoverText="vinh.home" notHoverText="vinh."/>
 
       <div className="about-header">
-        <p>I am a <span className="purple-text">Full-Stack</span> developer</p>
+        <motion.div
+          initial={{height: 0, y: 200}}
+          animate={{height: "2.6em", y: 0}}
+          transition={{ ease: "easeOut",duration: .5 }}
+          className="motion-container">
+          <p>I am a <span className="purple-text">Full-Stack</span> developer</p>
+        </motion.div>
       </div>
 
       <div className="about-skills">

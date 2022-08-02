@@ -8,7 +8,7 @@ const LinkContainer = () => {
         initial={{height: 0, y: 200}}
         animate={{height: "auto", y: 0}}
         transition={{ ease: "easeOut",duration: .5 }}
-        className="HoverLink-container">
+        className="motion-container">
         <HoverLink 
           pathName="about" 
           styleLink="HoverLink purple-text" 
@@ -19,7 +19,7 @@ const LinkContainer = () => {
         initial={{height: 0, y: 200}}
         animate={{height: "auto", y: 0}}
         transition={{ ease: "easeOut",duration: .5, delay: .5 }}
-        className="HoverLink-container">
+        className="motion-container">
         <HoverLink 
           pathName="work" 
           styleLink="HoverLink" 
@@ -30,7 +30,7 @@ const LinkContainer = () => {
         initial={{height: 0, y: 200}}
         animate={{height: "auto", y: 0}}
         transition={{ ease: "easeOut",duration: .5, delay: 1 }}
-        className="HoverLink-container">
+        className="motion-container">
         <HoverLink 
           pathName="contact" 
           styleLink="HoverLink" 
