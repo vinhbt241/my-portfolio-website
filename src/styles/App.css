@@ -225,6 +225,7 @@ body {
   font-size: .8em;
 
   font-family: 'Source Sans Pro Normal';
+  width: fit-content;
 }
 
 .project-illustration {
