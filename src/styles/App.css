@@ -29,10 +29,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-right: 15vw;
 }
 
 .avatar {
-  margin-right: 15vw;
   border-radius: 50%;
   background-color: #8600b3;
 }
@@ -150,7 +150,7 @@ body {
 
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 1.5em;
 }
 
 .about-skills h1 {
@@ -205,7 +205,7 @@ body {
 }
 
 .skill-icon {
-  height: 100%;
+  max-height: 3em;
 }
 
 .project-links {
