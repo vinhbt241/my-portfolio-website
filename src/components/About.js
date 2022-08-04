@@ -102,7 +102,13 @@ const About = () => {
         <p>
           You can read more about my biography, experience, skills, education and much more in the PDF attached below:
         </p>
-        <p className="purple-text HoverLinkText">My resume</p>
+        <a 
+          href="https://drive.google.com/file/d/1Jncy-ZdeVDWFvSd_0g8wYSdxKXYg_qgl/view?usp=sharing" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="purple-text HoverLinkText">
+          My resume
+        </a>
       </div>
     </motion.div>
   )
