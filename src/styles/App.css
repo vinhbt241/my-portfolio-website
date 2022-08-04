@@ -28,19 +28,22 @@ body {
 
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding-right: 15vw;
+
 }
 
 .avatar {
   border-radius: 50%;
   background-color: #8600b3;
+  width: 27vw;
+  height: 27vw;
+
+  margin-right: 15vw;
+  margin-left: auto;
 }
 
 .LinkContainer {
   width: fit-content;
   margin-left: 25rem;
-
   font-size: 10em;
   font-family: 'Source Sans Pro Bold';
 
@@ -254,4 +257,12 @@ body {
   color: inherit;
   border: none;
   font-family: inherit;
+}
+
+@media only screen and (max-width: 1400px) {
+  .LinkContainer {
+    font-size: 8em;
+    margin-left: 20vw;
+    height: 61vh;
+  }
 }
